@@ -1,5 +1,7 @@
 <template>
-  <p>pippo e pluto</p>
+  <jumbotron>
+    <h2>Primo lavoro con node.js!</h2>
+  </jumbotron>
 </template>
 
 <script>
