@@ -1,11 +1,17 @@
 <template>
   <div id="app">
-    <h1>Ciao</h1>
+    <Title />
   </div>
 </template>
   
 <script>
-export default {};
+import Title from "./components/Title.vue";
+export default {
+  name: "App",
+  components: {
+    Title,
+  },
+};
 </script>
 
 <style>
